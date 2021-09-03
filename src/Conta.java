@@ -2,7 +2,7 @@
 
 public class Conta {
 
-	double saldo;
+	private double saldo;
 	int agencia;
 	int numero;
 	Cliente titular;
@@ -30,6 +30,32 @@ public class Conta {
 		
 		
 		
+	}
+	
+	public double getSaldo() {
+		return this.saldo;
+	}
+	
+	public int getNumero() {
+		return this.numero;
+	}
+	
+	public void setNumero(int numero) {
+		this.numero = numero;
+	}
+	
+	public int getAgencia() {
+		return this.agencia;
+	}
+	public void setAgencia(int agencia) {
+		this.agencia = agencia;
+	} 
+	
+	public void setTitular(Cliente titular) {
+		this.titular = titular;
+	}
+	public Cliente getTitular() {
+		return titular;
 	}
 
 }
