@@ -10,7 +10,6 @@ public class TestaBanco {
 		
 		Conta contaDoPaulo = new Conta(1337,24226);
 		contaDoPaulo.deposita(100);
-		contaDoPaulo.titular = paulo;
 		System.out.println(contaDoPaulo.getTitular().getNome());
 	}
 	
